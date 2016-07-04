@@ -32,7 +32,7 @@ class Gatherer {
 	
 	def static void main(String[] args) {
 		// Levantando el servidor
-		XTRest.start(Gatherer, 6000)
+		XTRest.start(Gatherer, 9000)
 	}
 }
 
