@@ -73,7 +73,7 @@ public class Gatherer extends ResultFactory {
   }
   
   public static void main(final String[] args) {
-    XTRest.start(Gatherer.class, 9000);
+    XTRest.start(Gatherer.class, 6000);
   }
   
   public void handle(final String target, final Request baseRequest, final HttpServletRequest request, final HttpServletResponse response) throws IOException, ServletException {
